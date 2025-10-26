@@ -50,7 +50,6 @@ portfolio/
 - **Email:** aarjunmitra003@gmail.com
 - **LinkedIn:** [Arjun Mitra](https://www.linkedin.com/in/arjun-mitra-2761a9260/)
 - **GitHub:** [TheLearnerAllTime002](https://github.com/TheLearnerAllTime002)
-- **Portfolio:** [your-portfolio-url.com](https://your-portfolio-url.com)
 
 ---
 
