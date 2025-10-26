@@ -1,11 +1,6 @@
 # Portfolio Website
 
 
-
-## 🚀 Live Demo
-
-[View Live Demo](https://your-portfolio-url.com)
-
 ## 🛠️ Tech Stack
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
