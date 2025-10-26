@@ -1,6 +1,6 @@
 # Portfolio Website
 
-![Portfolio Banner](https://via.placeholder.com/1200x400/0066cc/ffffff?text=Portfolio+Banner)
+
 
 ## 🚀 Live Demo
 
@@ -23,11 +23,6 @@
 - 📧 **Contact Form** - Integrated contact form for easy communication
 - 🎯 **Project Showcase** - Display your best work with detailed project cards
 
-## 📸 Screenshots
-
-![Screenshot 1](https://via.placeholder.com/800x450/0066cc/ffffff?text=Home+Page)
-![Screenshot 2](https://via.placeholder.com/800x450/0066cc/ffffff?text=Projects+Section)
-![Screenshot 3](https://via.placeholder.com/800x450/0066cc/ffffff?text=Contact+Page)
 
 ## 📁 Folder Structure
 
@@ -57,7 +52,7 @@ portfolio/
 
 ## 📞 Contact
 
-- **Email:** your.email@example.com
+- **Email:** aarjunmitra003@gmail.com
 - **LinkedIn:** [Arjun Mitra](https://www.linkedin.com/in/arjun-mitra-2761a9260/)
 - **GitHub:** [TheLearnerAllTime002](https://github.com/TheLearnerAllTime002)
 - **Portfolio:** [your-portfolio-url.com](https://your-portfolio-url.com)
