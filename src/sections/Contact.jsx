@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "motion/react";
 import emailjs from "@emailjs/browser";
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
@@ -61,19 +62,45 @@ const Contact = () => {
         refresh
       />
       {showAlert && <Alert type={alertType} text={alertMessage} />}
-      <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
+       <motion.div
+         className="flex flex-col items-center justify-center max-w-md p-6 mx-auto border border-white/20 rounded-3xl bg-gradient-to-br from-primary/30 via-primary/20 to-primary/30 backdrop-blur-xl shadow-2xl"
+         initial={{ opacity: 0, y: 50, scale: 0.9 }}
+         whileInView={{ opacity: 1, y: 0, scale: 1 }}
+         transition={{ duration: 0.8, ease: "easeOut" }}
+         viewport={{ once: true }}
+       >
         <div className="flex flex-col items-start w-full gap-5 mb-10">
-          <h2 className="text-heading">Let's Talk</h2>
-          <p className="font-normal text-neutral-400">
+          <motion.h2
+            className="text-heading bg-gradient-to-r from-aqua to-mint bg-clip-text text-transparent"
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true }}
+          >
+            Let's Talk
+          </motion.h2>
+          <motion.p
+            className="font-normal text-neutral-400"
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            viewport={{ once: true }}
+          >
             Whether you want to build a new website, upgrade your current platform, or bring a fresh idea to life—let’s make it happen together.
-          </p>
+          </motion.p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
-          <div className="mb-5">
-            <label htmlFor="name" className="feild-label">
+          <motion.div
+            className="mb-5"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <label htmlFor="name" className="field-label">
               Full Name
             </label>
-            <input
+            <motion.input
               id="name"
               name="name"
               type="text"
@@ -83,13 +110,21 @@ const Contact = () => {
               value={formData.name}
               onChange={handleChange}
               required
+              whileFocus={{ scale: 1.02, borderColor: "#33c2cc" }}
+              transition={{ duration: 0.2 }}
             />
-          </div>
-          <div className="mb-5">
-            <label htmlFor="email" className="feild-label">
+          </motion.div>
+          <motion.div
+            className="mb-5"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.8 }}
+            viewport={{ once: true }}
+          >
+            <label htmlFor="email" className="field-label">
               Email
             </label>
-            <input
+            <motion.input
               id="email"
               name="email"
               type="email"
@@ -99,13 +134,21 @@ const Contact = () => {
               value={formData.email}
               onChange={handleChange}
               required
+              whileFocus={{ scale: 1.02, borderColor: "#33c2cc" }}
+              transition={{ duration: 0.2 }}
             />
-          </div>
-          <div className="mb-5">
-            <label htmlFor="message" className="feild-label">
+          </motion.div>
+          <motion.div
+            className="mb-5"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 1.0 }}
+            viewport={{ once: true }}
+          >
+            <label htmlFor="message" className="field-label">
               Message
             </label>
-            <textarea
+            <motion.textarea
               id="message"
               name="message"
               type="text"
@@ -116,16 +159,24 @@ const Contact = () => {
               value={formData.message}
               onChange={handleChange}
               required
+              whileFocus={{ scale: 1.02, borderColor: "#33c2cc" }}
+              transition={{ duration: 0.2 }}
             />
-          </div>
-          <button
+          </motion.div>
+          <motion.button
             type="submit"
-            className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-lavender to-royal hover-animation"
+            className="w-full px-1 py-3 text-lg text-center rounded-lg cursor-pointer bg-gradient-to-r from-lavender to-royal hover:from-royal hover:to-lavender shadow-lg hover:shadow-xl transition-all duration-300"
+            whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(124, 87, 219, 0.5)" }}
+            whileTap={{ scale: 0.95 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 1.2 }}
+            viewport={{ once: true }}
           >
             {!isLoading ? "Send" : "Sending..."}
-          </button>
+          </motion.button>
         </form>
-      </div>
+       </motion.div>
     </section>
   );
 };
