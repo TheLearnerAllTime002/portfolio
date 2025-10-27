@@ -141,3 +141,13 @@ body {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
 }
 
+/* Hide scrollbar */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
