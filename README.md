@@ -130,7 +130,7 @@ Passionate **Full Stack Developer** dedicated to building scalable, high-perform
 
 ### Ready to collaborate on innovative projects?
 
-📧 **Email:** [aarjunmitra003@gmail.com](mailto:aarjunmitra003@gmail.com)  
+📧 **Email:** [arjunmitra003@gmail.com](mailto:aarjunmitra003@gmail.com)  
 💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/arjun-mitra-2761a9260/)  
 🌐 **Portfolio:** [Visit my portfolio](https://arjunmitra.netlify.app/)  
 💻 **GitHub:** [@TheLearnerAllTime002](https://github.com/TheLearnerAllTime002)
