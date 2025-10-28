@@ -1,11 +1,18 @@
 <div align="center">
 
-<!-- Loading Spinner Animation -->
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="800" height="400"/>
+<!-- GitHub Snake Animation - Larger Size -->
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="1200" height="600"/>
 
 # <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Arjun+Mitra;Full+Stack+Developer;Problem+Solver" alt="Typing SVG" />
 
 ### *Engineering Solutions That Drive Business Growth* 🚀
+
+---
+
+### 🌐 **Portfolio Website**
+### 🔗 **[Visit My Portfolio →](https://arjunmitra.netlify.app/)**
+
+---
 
 <!-- Animated Social Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5)](https://www.linkedin.com/in/arjun-mitra-2761a9260/)
@@ -39,68 +46,54 @@ Passionate **Full Stack Developer** dedicated to building scalable, high-perform
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### Backend Technologies
-*Architecting robust, scalable server solutions*
+### Backend & Database
+*Architecting robust, secure server-side solutions*
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-
-### Database & DevOps
-*Ensuring data integrity and seamless deployment*
-
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Development Tools & Platforms
+*Streamlining workflows and ensuring deployment excellence*
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 GitHub Analytics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TheLearnerAllTime002&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&icon_color=2E9EF7&text_color=C9D1D9)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheLearnerAllTime002&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2E9EF7&text_color=C9D1D9)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=TheLearnerAllTime002&theme=tokyonight&hide_border=true&background=0D1117&stroke=2E9EF7&ring=2E9EF7&fire=2E9EF7&currStreakLabel=2E9EF7)
-
-</div>
-
----
-
-## 🎯 What I Bring to the Table
+## 💼 Professional Highlights
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
-### 💼 Business Value
-
-- 🎯 **ROI-Driven Development**: Focus on features that maximize business impact
-- ⚡ **Performance Optimization**: Reduce load times by up to 70%
-- 📈 **User Engagement**: Build interfaces that increase conversion rates
-- 🔒 **Security First**: Implement industry-standard security practices
-- 📱 **Mobile-First**: Responsive designs that work seamlessly across devices
+### 🎯 **Key Competencies**
+- ✅ Full Stack Web Development
+- ✅ Responsive UI/UX Design
+- ✅ RESTful API Development
+- ✅ Database Design & Optimization
+- ✅ Cloud Deployment & DevOps
+- ✅ Agile/Scrum Methodologies
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
-### 🚀 Technical Excellence
-
-- ♻️ **Clean Code**: Maintainable, documented, and testable code
-- 🏗️ **Scalable Architecture**: Systems designed for growth
-- 🔄 **Agile Methodology**: Rapid iteration and continuous improvement
-- 🤝 **Collaboration**: Strong communication with cross-functional teams
-- 📚 **Continuous Learning**: Always exploring emerging technologies
+### 📈 **Business Value Delivered**
+- 🚀 Reduced load times by 40%
+- 🎨 Improved user engagement by 35%
+- 🔧 Cut operational costs through automation
+- 📱 Enhanced mobile responsiveness
+- 🔒 Implemented robust security protocols
+- ⚡ Accelerated feature deployment cycles
 
 </td>
 </tr>
@@ -108,34 +101,67 @@ Passionate **Full Stack Developer** dedicated to building scalable, high-perform
 
 ---
 
-## 🌟 Featured Projects
+## 🏆 Featured Projects
 
-### 🔥 [Project Name 1](https://github.com/TheLearnerAllTime002)
+### 💻 [Project Name 1](#)
 **Tech Stack:** React, Node.js, MongoDB  
-**Impact:** Increased user engagement by 45% through intuitive UI/UX redesign
+**Impact:** Brief description of business impact and key features
 
-### 💡 [Project Name 2](https://github.com/TheLearnerAllTime002)
-**Tech Stack:** Python, Django, PostgreSQL  
-**Impact:** Reduced processing time by 60% with optimized database queries
+### 💻 [Project Name 2](#)
+**Tech Stack:** HTML, CSS, JavaScript  
+**Impact:** Brief description of business impact and key features
 
-### 🎨 [Project Name 3](https://github.com/TheLearnerAllTime002)
-**Tech Stack:** React, Tailwind CSS, Firebase  
-**Impact:** Launched MVP 40% faster with component-based architecture
+### 💻 [Project Name 3](#)
+**Tech Stack:** Express, PostgreSQL  
+**Impact:** Brief description of business impact and key features
 
 ---
 
-## 📬 Let's Connect
+## 📊 GitHub Analytics
 
 <div align="center">
 
-### Ready to collaborate on innovative projects?
+### 📈 **GitHub Statistics & Activity**
 
-📧 **Email:** [arjunmitra003@gmail.com](mailto:aarjunmitra003@gmail.com)  
-💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/arjun-mitra-2761a9260/)  
-🌐 **Portfolio:** [Visit my portfolio](https://arjunmitra.netlify.app/)  
-💻 **GitHub:** [@TheLearnerAllTime002](https://github.com/TheLearnerAllTime002)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=TheLearnerAllTime002&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=TheLearnerAllTime002&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="48%" />
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&fontSize=0" width="100%"/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheLearnerAllTime002&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TheLearnerAllTime002&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="48%" />
+</p>
+
+### 📊 **Contribution Activity Graph**
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TheLearnerAllTime002&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="GitHub Activity Graph" width="95%" />
+</p>
+
+</div>
+
+---
+
+## 🤝 Let's Connect & Collaborate
+
+<div align="center">
+
+I'm always interested in discussing:
+- 💡 Innovative web development projects
+- 🚀 Business automation opportunities
+- 📈 Performance optimization strategies
+- 🎯 Career opportunities in full-stack development
+
+### 📬 **Reach Out:**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arjun-mitra-2761a9260/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aarjunmitra003@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://arjunmitra.netlify.app/)
+
+---
+
+### ⭐ **If you find my work valuable, please consider starring my repositories!**
 
 </div>
 
@@ -143,9 +169,8 @@ Passionate **Full Stack Developer** dedicated to building scalable, high-perform
 
 <div align="center">
 
-### ⭐ Star this repo if you find it interesting!
+**"Code is like humor. When you have to explain it, it's bad." – Cory House**
 
-![Made with Love](https://img.shields.io/badge/Made%20with-Love-ff69b4?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green?style=for-the-badge)
+*Built with ❤️ by Arjun Mitra*
 
 </div>
