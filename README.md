@@ -108,22 +108,6 @@ Passionate **Full Stack Developer** dedicated to building scalable, high-perform
 
 ---
 
-## 🌟 Featured Projects
-
-### 🔥 [Project Name 1](https://github.com/TheLearnerAllTime002)
-**Tech Stack:** React, Node.js, MongoDB  
-**Impact:** Increased user engagement by 45% through intuitive UI/UX redesign
-
-### 💡 [Project Name 2](https://github.com/TheLearnerAllTime002)
-**Tech Stack:** Python, Django, PostgreSQL  
-**Impact:** Reduced processing time by 60% with optimized database queries
-
-### 🎨 [Project Name 3](https://github.com/TheLearnerAllTime002)
-**Tech Stack:** React, Tailwind CSS, Firebase  
-**Impact:** Launched MVP 40% faster with component-based architecture
-
----
-
 ## 📬 Let's Connect
 
 <div align="center">
