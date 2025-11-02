@@ -130,6 +130,43 @@ export const myProjects = [
       },
     ],
   },
+
+  {
+    id: 4,
+    title: "Human Eye Disease Prediction System",
+    description:
+      "An AI-powered diagnostic platform that analyzes retinal OCT scans to detect and classify major eye diseases using deep learning.",
+    subDescription: [
+      "Built with TensorFlow and MobileNetV3 for high-accuracy retinal image classification.",
+    "Streamlit-based web interface for real-time OCT image analysis and visualization.",
+    "Trained on over 80,000 labeled retinal scans across four categories — CNV, DME, Drusen, and Normal.",
+    ],
+    href: "https://github.com/TheLearnerAllTime002/Human-Eye-Disease-Prediction-System",
+    logo: "",
+    image: "/assets/projects/eye_prediction.png",
+    tags: [
+      {
+        id: 1,
+        name: "TensorFlow",
+        path: "/assets/logos/TensorFlow.svg",
+      },
+      {
+        id: 2,
+        name: "Python",
+        path: "/assets/logos/python.svg",
+      },
+      {
+        id: 3,
+        name: "Keras",
+        path: "/assets/logos/Keras.svg",
+      },
+      {
+        id: 4,
+        name: "Streamlit",
+        path: "/assets/logos/Streamlit.svg",
+      },
+    ],
+  },
 ];
 
 export const mySocials = [
