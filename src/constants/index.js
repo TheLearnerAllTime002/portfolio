@@ -97,40 +97,41 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
-    title: "ThinkEd - Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Coming Soon",
-    ],
-    href: "https://github.com/TheLearnerAllTime002/ThinkEdDemo",
-    logo: "",
-    image: "/assets/projects/thinked.png",
-    tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 3,
-        name: "Vite",
-        path: "/assets/logos/vitejs.svg",
-      },
-      {
-        id: 4,
-        name: "Firebase",
-        path: "/assets/logos/firebase.svg",
-      },
-    ],
+  id: 4,
+  title: "MediGPT - AI Medical Assistant with RAG Architecture",
+  description: "An intelligent medical chatbot powered by RAG architecture and Google's Gemini AI for accurate medical responses and guidance.",
+  subDescription: [
+    "RAG-powered medical knowledge base",
+    "Real-time AI medical assistance",
+    "Modern responsive UI with dark/light themes",
+    "Vector search with Pinecone integration"
+  ],
+  href: "https://github.com/TheLearnerAllTime002/MediGPT",
+  logo: "",
+  image: "/assets/projects/medigpt.png",
+  tags: [
+    {
+      id: 1,
+      name: "Flask",
+      path: "/assets/logos/flask.svg",
+    },
+    {
+      id: 2,
+      name: "LangChain",
+      path: "/assets/logos/langchain.svg",
+    },
+    {
+      id: 3,
+      name: "Google Gemini",
+      path: "/assets/logos/gemini.png",
+    },
+    {
+      id: 4,
+      name: "Python",
+      path: "/assets/logos/python.svg",
+    }
+  ],
   },
-
   {
     id: 4,
     title: "Human Eye Disease Prediction System",
