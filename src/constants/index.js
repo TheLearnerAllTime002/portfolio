@@ -218,16 +218,6 @@ export const experiences = [
     ],
   },
   {
-    title: "Java Programming Intern",
-    job: "VaultofCodes",
-    date: "Aug 2025 – Sep 2025",
-    contents: [
-      "Completed a 1-month internship focused on Java programming.",
-      "Enhanced skills in Java, object-oriented programming, and problem-solving.",
-      "Gained practical experience applying Java concepts to real-world projects.",
-    ],
-  },
-  {
     title: "Chair",
     job: "IEEE IES Student Chapter, STCET",
     date: "Apr 2025 – Present",
@@ -235,6 +225,22 @@ export const experiences = [
       "Leading a team to organize workshops, mentor technical projects, and build community around IoT, embedded systems, cloud computing, and VLSI.",
       "Developed leadership, public speaking, and project management skills.",
       "Focused on bringing students closer to real-world technical applications.",
+    ],
+  },
+    {
+    title: "Chair",
+    job: "IEEE Student Branch , STCET",
+    date: "Jan 2026 – Present",
+    contents: [
+      "Promoted to Chairperson of the IEEE Student Branch at STCET, taking responsibility for leading one of the most active professional technical communities on campus. The role focuses on strategic leadership, technical growth, and building industry–academia engagement for student members.",
+    ],
+  },
+      {
+    title: "Student Member ",
+    job: "Co-Curricular Activities Cell, STCET",
+    date: "Jan 2026 – Present",
+    contents: [
+      "Selected by the department as a Student Member of the Co-Curricular Cell, contributing to the planning and execution of academic and co-curricular initiatives aimed at holistic student development.",
     ],
   },
 ];
