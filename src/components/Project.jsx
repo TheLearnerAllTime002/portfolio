@@ -19,7 +19,7 @@ const Project = ({
       <div
         id={`project-${id}`}
         data-project-card
-        className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
+        className="scroll-reveal flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
         onMouseEnter={() => setPreview(image)}
         onMouseLeave={() => setPreview(null)}
       >
