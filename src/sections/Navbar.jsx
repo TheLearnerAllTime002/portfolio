@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import ResumeButton from "../components/ResumeButton";
+
 function Navigation() {
   return (
     <ul className="nav-ul">
@@ -22,6 +24,15 @@ function Navigation() {
         <a className="nav-link" href="#contact">
           Contact
         </a>
+      </li>
+      <li className="nav-li mt-2">
+        <button className="command-open-mobile" type="button" onClick={() => window.dispatchEvent(new Event("portfolio:open-command-palette"))}>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3" /><path d="m15.5 15.5 4.2 4.2" /></svg>
+          Quick actions <kbd>Ctrl + K</kbd>
+        </button>
+      </li>
+      <li className="nav-li mt-2">
+        <ResumeButton className="!px-5 !py-2 !text-base" />
       </li>
     </ul>
   );
@@ -66,6 +77,18 @@ function IconNavigation() {
       >
         <img src="assets/contact.svg" className="w-6 h-6" alt="Contact" />
       </motion.a>
+      <button
+        type="button"
+        className="nav-icon command-open-button"
+        onClick={() => window.dispatchEvent(new Event("portfolio:open-command-palette"))}
+        aria-label="Open command palette"
+        title="Quick actions · Ctrl + K"
+      >
+        <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="6.3" /><path d="m15.5 15.5 4.2 4.2" />
+        </svg>
+        <span className="command-key-hint">Ctrl K</span>
+      </button>
     </div>
   );
 }

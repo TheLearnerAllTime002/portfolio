@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Project from "../components/Project";
-import { myProjects } from "../constants";
+import { myProjects, projectCategories } from "../constants";
 import { motion, useMotionValue, useSpring } from "motion/react";
 const Projects = () => {
   const x = useMotionValue(0);
@@ -12,14 +12,37 @@ const Projects = () => {
     y.set(e.clientY + 20);
   };
   const [preview, setPreview] = useState(null);
+  const [activeCategory, setActiveCategory] = useState("All");
+  const filteredProjects =
+    activeCategory === "All"
+      ? myProjects
+      : myProjects.filter((p) => p.category === activeCategory);
   return (
     <section
       onMouseMove={handleMouseMove}
       className="relative c-space section-spacing" id="work"
     >
       <h2 className="text-heading">My Selected Projects</h2>
+
+      {/* Category filter bar */}
+      <div className="flex flex-wrap justify-center gap-3 mt-8">
+        {projectCategories.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setActiveCategory(cat)}
+            className={`px-5 py-2 rounded-full text-sm font-medium cursor-pointer backdrop-blur-md transition-all duration-300 border ${
+              activeCategory === cat
+                ? "bg-aqua/20 border-aqua/60 text-white shadow-[0_0_18px_rgba(51,194,204,0.35)]"
+                : "bg-white/5 border-white/15 text-neutral-400 hover:text-white hover:border-white/35"
+            }`}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />
-      {myProjects.map((project) => (
+      {filteredProjects.map((project) => (
         <Project key={project.id} {...project} setPreview={setPreview} />
       ))}
       {preview && (

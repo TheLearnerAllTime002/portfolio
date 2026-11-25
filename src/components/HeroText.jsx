@@ -1,5 +1,6 @@
 import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
+import ResumeButton from "./ResumeButton";
 
 const HeroText = () => {
   const words = ["Web", "Cloud", "AI"];
@@ -66,6 +67,8 @@ const HeroText = () => {
           >
             Full-stack Developer • Cloud Enthusiast • Gen AI Explorer
           </motion.p>
+
+          <ResumeButton delay={2.2} className="mt-2" />
         </div>
       </div>
 
@@ -123,6 +126,8 @@ const HeroText = () => {
         >
           <strong className="font-bold">Web • Cloud • AI</strong>
         </motion.p>
+
+        <ResumeButton delay={2.2} className="mx-auto" />
       </div>
     </div>
   );
